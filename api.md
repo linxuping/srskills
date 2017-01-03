@@ -5,7 +5,7 @@
 **参数**
 ```json
 {
-	"type":"0-课程;1-活动"
+	"type":"0-课程;1-活动",
 	"title":"云南亲子一日游",
 	"time_sign_end":"2016-12-13",
 	"price":12.3,
@@ -67,7 +67,7 @@
 			}
 		],
 		"count":3
-	}
+	},
 	"errcode": 0,
 	"errmsg": ""
 }
@@ -84,7 +84,7 @@
 		"tags": [
 			"a","b","c"
 		]
-	}
+	},
 	"errcode": 0,
 	"errmsg": ""
 }
@@ -105,7 +105,7 @@
 				"createtime":"20161201"
 			}
 		]
-	}
+	},
 	"errcode": 0,
 	"errmsg": ""
 }
@@ -127,7 +127,7 @@
 				"createtime":"20161201"
 			}
 		]
-	}
+	},
 	"errcode": 0,
 	"errmsg": ""
 }
