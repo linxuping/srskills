@@ -34,7 +34,7 @@
 	"name": "家长姓名",
 	"phone": "手机",
 	"age": "儿童年龄",
-	"id": "活动id",
+	"actid": "活动id",
 	"location": "报名时所处位置",
 	"option_ids": "1,3,5"
 }
