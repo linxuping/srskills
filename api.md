@@ -18,8 +18,8 @@
 **返回**
 ```json
 {
-	"errcode": 0,
-	"errmsg": ""
+	"errcode": 1,
+	"errmsg": "标题已经被使用，请重新输入！"
 }
 ```
 
@@ -47,6 +47,8 @@
 }
 ```
 
+--------
+
 ### 3. 报名列表 - 点击跳详情
 **GET**
 **URL** /sr/signup/list?openid=***
@@ -63,6 +65,7 @@
 				"age": 4,
 				"gentle": "male",
 				"title": "til",
+				"status: "已报名",
 				"tag": "tag",
 				"record": "rec",
 			}
@@ -91,7 +94,48 @@
 }
 ```
 
-### 5. 发布列表
+### 5. 更新标签
+**POST**
+**URL** /sr/tag/update
+
+**参数**
+```json
+{
+	"openid": "openid",
+	"actid": 3,
+	"tag": "dd"
+}
+```
+**返回**
+```json
+{
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 6. 更新标签
+**POST**
+**URL** /sr/record/update
+
+**参数**
+```json
+{
+	"openid": "openid",
+	"actid": 3,
+	"record": "dd"
+}
+```
+**返回**
+```json
+{
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+
+### 7. 发布列表
 **GET**
 **URL** /sr/class/list?openid=abc
 
@@ -103,38 +147,22 @@
 			{
 				"id":2,
 				"title":"tile",
+				"img_cover":"img",
 				"createtime":"20161201"
 			}
-		]
+		],
+		"statistics":{
+			"count_signup":10,
+			"count_view":29,
+			"count_transfer":3
+		}
 	},
 	"errcode": 0,
 	"errmsg": ""
 }
 ```
 
-### 5. 发布列表
-**GET**
-**URL** /sr/class/list?openid=abc
-
-**返回**
-```json
-{
-	"data":{
-		"activities": [
-			{
-				"id":2,
-				"type":0,
-				"title":"tile",
-				"createtime":"20161201"
-			}
-		]
-	},
-	"errcode": 0,
-	"errmsg": ""
-}
-```
-
-### 6. 详情
+### 8. 详情
 **GET**
 **URL** /sr/activity/details?openid=abc&actid=2
 
@@ -171,47 +199,10 @@
 }
 ```
 
-### 7. 修改
+### 9. 修改
 **POST**
 ** URL ** /sr/activity/add
 
-### 8. 更新标签
-**POST**
-**URL** /sr/tag/update
+--------
 
-**参数**
-```json
-{
-	"openid": "openid",
-	"actid": 3,
-	"tag": "dd"
-}
-```
-**返回**
-```json
-{
-	"errcode": 0,
-	"errmsg": ""
-}
-```
-
-### 8. 更新标签
-**POST**
-**URL** /sr/tag/update
-
-**参数**
-```json
-{
-	"openid": "openid",
-	"actid": 3,
-	"tag": "dd"
-}
-```
-**返回**
-```json
-{
-	"errcode": 0,
-	"errmsg": ""
-}
-```
 
