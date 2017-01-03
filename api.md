@@ -55,7 +55,7 @@
 ```json
 {
 	"data":{
-		"infos": [
+		"items": [
 			{
 				"uid": 3,
 				"name": "abc",
