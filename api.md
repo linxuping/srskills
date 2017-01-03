@@ -150,13 +150,13 @@
 				"title":"tile",
 				"img_cover":"img",
 				"createtime":"20161201"
+				"statistics":{
+					"count_signup":10,
+					"count_view":29,
+					"count_transfer":3
+				}
 			}
-		],
-		"statistics":{
-			"count_signup":10,
-			"count_view":29,
-			"count_transfer":3
-		}
+		]
 	},
 	"errcode": 0,
 	"errmsg": ""
@@ -188,12 +188,7 @@
 				"price":"价格",
 				"quantities":"人数限制"
 			}
-		],
-		"statistics":{
-			"count_signup":10,
-			"count_view":29,
-			"count_transfer":3
-		}
+		]
 	},
 	"errcode": 0,
 	"errmsg": ""
