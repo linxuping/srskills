@@ -5,6 +5,7 @@
 **参数**
 ```json
 {
+	"openid":"abc",
 	"type":"0-课程;1-活动",
 	"title":"云南亲子一日游",
 	"time_sign_end":"2016-12-13",
@@ -75,7 +76,7 @@
 
 ### 4. 标签列表
 **GET**
-**URL** /sr/tag/list
+**URL** /sr/tag/list?openid=abc
 
 **返回**
 ```json
@@ -92,7 +93,7 @@
 
 ### 5. 发布列表
 **GET**
-**URL** /sr/class/list
+**URL** /sr/class/list?openid=abc
 
 **返回**
 ```json
@@ -113,7 +114,7 @@
 
 ### 5. 发布列表
 **GET**
-**URL** /sr/class/list
+**URL** /sr/class/list?openid=abc
 
 **返回**
 ```json
