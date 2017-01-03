@@ -201,4 +201,92 @@
 
 --------
 
+### 10. 我的收益
+**GET**
+**URL** /sr/income/details?openid=abc
+
+**返回**
+```json
+{
+	"data":{
+		"fee_can_extract": 100,
+		"fee_settled": 200,
+		"fee_will_settle: 300
+},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 11. 现金提取
+**POST**
+**URL** /sr/income/extract
+
+**参数**
+```json
+{
+	"openid": "openid",
+	"all": 100,
+	"extract": 50,
+	"name": "test",
+	"bank": "zhaohang",
+	"card": "123456",
+	"record": "dd"
+}
+```
+**返回**
+```json
+{
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 12. 提取记录
+**GET**
+**URL** /sr/income/logs?openid=abc
+
+**返回**
+```json
+{
+	"data":{
+		"logs": [
+			{
+				"time": "20161212",
+				"extract": 100,
+				"counter_fee": 2,
+				"name": "test",
+				"bank": "zhaohang",
+				"card": "123456",
+				"status": "受理中"
+			}
+		]
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 13. 资金流水
+**GET**
+**URL** /sr/income/flow?openid=abc
+
+**返回**
+```json
+{
+	"data":{
+		"logs": [
+			{
+				"time": "20161212",
+				"type": "提现、交易、退款",
+				"fee": 2,
+				"remian": 60
+			}
+		]
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
 
