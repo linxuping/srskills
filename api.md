@@ -5,7 +5,7 @@
 **参数**
 ```json
 {
-	"openid":"abc",
+	"uid":"abc",
 	"type":"0-课程;1-活动",
 	"title":"云南亲子一日游",
 	"time_sign_end":"2016-12-13",
@@ -30,7 +30,7 @@
 **参数**
 ```json
 {
-	"openid": "openid",
+	"uid": "uid",
 	"name": "家长姓名",
 	"phone": "手机",
 	"age": "儿童年龄",
@@ -51,7 +51,7 @@
 
 ### 3. 报名列表 - 点击跳详情
 **GET**
-**URL** /sr/signup/list?openid=***
+**URL** /sr/signup/list?uid=***
 
 **返回**
 ```json
@@ -79,7 +79,7 @@
 
 ### 4. 标签列表
 **GET**
-**URL** /sr/tag/list?openid=abc
+**URL** /sr/tag/list?uid=abc
 
 **返回**
 ```json
@@ -101,7 +101,7 @@
 **参数**
 ```json
 {
-	"openid": "openid",
+	"uid": "uid",
 	"actid": 3,
 	"tag": "dd"
 }
@@ -121,7 +121,7 @@
 **参数**
 ```json
 {
-	"openid": "openid",
+	"uid": "uid",
 	"actid": 3,
 	"record": "dd"
 }
@@ -138,7 +138,7 @@
 
 ### 7. 发布列表
 **GET**
-**URL** /sr/class/list?openid=abc
+**URL** /sr/class/list?uid=abc
 
 **返回**
 ```json
@@ -165,7 +165,7 @@
 
 ### 8. 详情
 **GET**
-**URL** /sr/activity/details?openid=abc&actid=2
+**URL** /sr/activity/details?uid=abc&actid=2
 
 **返回**
 ```json
@@ -203,7 +203,7 @@
 
 ### 10. 我的收益
 **GET**
-**URL** /sr/income/details?openid=abc
+**URL** /sr/income/details?uid=abc
 
 **返回**
 ```json
@@ -225,7 +225,7 @@
 **参数**
 ```json
 {
-	"openid": "openid",
+	"uid": "uid",
 	"all": 100,
 	"extract": 50,
 	"name": "test",
@@ -244,7 +244,7 @@
 
 ### 12. 提取记录
 **GET**
-**URL** /sr/income/logs?openid=abc
+**URL** /sr/income/logs?uid=abc
 
 **返回**
 ```json
@@ -269,7 +269,7 @@
 
 ### 13. 资金流水
 **GET**
-**URL** /sr/income/flow?openid=abc
+**URL** /sr/income/flow?uid=abc
 
 **返回**
 ```json
