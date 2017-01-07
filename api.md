@@ -150,13 +150,25 @@
 				"title":"tile",
 				"img_cover":"img",
 				"createtime":"20161201"
-				"statistics":{
-					"count_signup":10,
-					"count_view":29,
-					"count_transfer":3
-				}
 			}
 		]
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 7.1. 活动统计数据
+**GET**
+**URL** /sr/class/stat?uid=abc&actid=123
+
+**返回**
+```json
+{
+	"data":{
+		"count_signup":10,
+		"count_view":29,
+		"count_transfer":3
 	},
 	"errcode": 0,
 	"errmsg": ""
