@@ -63,7 +63,7 @@
 				"name": "abc",
 				"phone": "1234",
 				"age": 4,
-				"gentle": "male",
+				"gender": "male",
 				"title": "til",
 				"status: "已报名",
 				"tag": "tag",
