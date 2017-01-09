@@ -70,7 +70,10 @@
 				"record": "rec",
 			}
 		],
-		"count":3
+		"pageable": {
+			"page": 0,
+			"total": 1
+		 }
 	},
 	"errcode": 0,
 	"errmsg": ""
@@ -151,12 +154,12 @@
 				"img_cover":"img",
 				"createtime":"20161201"
 			}
-		]
+		],
+		"pageable": {
+			"page": 0,
+			"total": 1
+		 }
 	},
-	"pageable": {
-        	"page": 0,
-        	"total": 1
-   	 },
 	"errcode": 0,
 	"errmsg": ""
 }
