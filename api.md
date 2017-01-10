@@ -218,6 +218,28 @@
 **POST**
 ** URL ** /sr/activity/add
 
+
+### 9.1. 消息列表
+**GET**
+**URL** /sr/signup/msgs?uid=abc
+
+**返回**
+```json
+{
+	"data": {
+		"msgs": [
+			{
+				"title":"a",
+				"status":"b",
+				"createtime":""
+			}
+		]
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
 --------
 
 ### 10. 我的收益
@@ -231,7 +253,7 @@
 		"fee_can_extract": 100,
 		"fee_settled": 200,
 		"fee_will_settle: 300
-},
+	},
 	"errcode": 0,
 	"errmsg": ""
 }
