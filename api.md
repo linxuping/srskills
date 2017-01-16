@@ -246,6 +246,29 @@
 }
 ```
 
+
+### 9.2. 报名详情
+**GET**
+**URL** /sr/signup/details?signid=1023&uid=123
+
+**返回**
+```json
+{
+	"data": {
+		"name_pa": "a",
+		"time": "20151010",
+		"phone": "12312312312",
+		"name_ch": "child",
+		"age": 3,
+		"gender": "male",
+		"tag": "tag",
+		"record": "rec"
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
 --------
 
 ### 10. 我的收益
