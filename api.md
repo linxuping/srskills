@@ -221,7 +221,7 @@
 
 ### 9.1. 消息列表
 **GET**
-**URL** /sr/signup/msgs?uid=abc
+**URL** /sr/signup/msgs?uid=abc&page=1&pagesize=100
 
 **返回**
 ```json
@@ -233,7 +233,11 @@
 				"status":"b",
 				"createtime":""
 			}
-		]
+		],		
+		"pageable": {
+			"page": 0,
+			"total": 1
+		 }
 	},
 	"errcode": 0,
 	"errmsg": ""
