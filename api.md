@@ -300,7 +300,7 @@
 	"cash_fee_extract": 50,
 	"name": "test",
 	"bank": "zhaohang",
-	"card": "123456",
+	"account": "123456",
 	"record": "dd"
 }
 ```
