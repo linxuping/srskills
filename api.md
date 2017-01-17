@@ -323,11 +323,12 @@
 		"logs": [
 			{
 				"time": "20161212",
-				"extract": 100,
-				"counter_fee": 2,
+				"cash_fee_extract": 100,
+				"poundage": 2,
+				"cash_fee_result": 98
 				"name": "test",
 				"bank": "zhaohang",
-				"card": "123456",
+				"account": "123456",
 				"status": "受理中"
 			}
 		]
