@@ -296,8 +296,8 @@
 ```json
 {
 	"uid": "uid",
-	"all": 100,
-	"extract": 50,
+	"cash_fee_all": 100,
+	"cash_fee_extract": 50,
 	"name": "test",
 	"bank": "zhaohang",
 	"card": "123456",
