@@ -152,7 +152,10 @@
 				"actid":2,
 				"title":"tile",
 				"img_cover":"img",
-				"createtime":"20161201"
+				"createtime":"20161201",
+				"count_signup":10,
+				"count_view":29,
+				"count_transfer":3
 			}
 		],
 		"pageable": {
