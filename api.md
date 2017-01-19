@@ -51,7 +51,8 @@
 
 ### 3. 报名列表 - 点击跳详情
 **GET**
-**URL** /sr/signup/list?uid=2&page=1&pagesize=3  指定活动报名列表增加actid=2
+**URL** /sr/signup/list?uid=2&page=1&pagesize=3  (指定活动报名列表增加actid=2)
+
 **返回**
 ```json
 {
