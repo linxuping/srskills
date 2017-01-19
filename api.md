@@ -59,7 +59,7 @@
 		"items": [
 			{
 				"uid": 3,
-				"actid", 2,
+				"actid": 2,
 				"name": "abc",
 				"phone": "1234",
 				"age": 4,
@@ -67,7 +67,7 @@
 				"title": "til",
 				"status: "已报名",
 				"tag": "tag",
-				"record": "rec",
+				"record": "rec"
 			}
 		],
 		"pageable": {
