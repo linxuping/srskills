@@ -51,7 +51,7 @@
 
 ### 3. 报名列表 - 点击跳详情
 **GET**
-**URL** /sr/signup/list?uid=***
+**URL** /sr/signup/list?uid=***&page=1&pagesize=3&actid=1
 
 **返回**
 ```json
