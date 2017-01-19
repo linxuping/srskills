@@ -267,7 +267,11 @@
 		"name_ch": "child",
 		"age": 3,
 		"gender": "male",
-		"signup_str": "美术课 a-b",
+		"sign_option": {
+			"id": 1,
+			"title": "meishu",
+			"time_str": "aa-bb cc"
+		},
 		"tag": "tag",
 		"record": "rec"
 	},
