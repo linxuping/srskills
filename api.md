@@ -267,6 +267,7 @@
 		"name_ch": "child",
 		"age": 3,
 		"gender": "male",
+		"signup_str": "美术课 a-b",
 		"tag": "tag",
 		"record": "rec"
 	},
