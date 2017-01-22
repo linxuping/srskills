@@ -280,6 +280,21 @@
 }
 ```
 
+### 9.3. 获取导出列表文件
+**GET**
+**URL** /sr/signup/filepath??uid=2
+
+**返回**
+```json
+{
+	"data": {
+		"filepath": "http://aaa/bbb.csv"
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
 --------
 
 ### 10. 我的收益
