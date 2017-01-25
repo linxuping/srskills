@@ -154,6 +154,7 @@
 			{
 				"actid":2,
 				"type": "课程",
+				"status": 1,
 				"title":"tile",
 				"img_cover":"img",
 				"createtime":"20161201",
