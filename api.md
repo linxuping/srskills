@@ -335,6 +335,21 @@
 }
 ```
 
+### 9.4. 获取报名二维码
+**GET**
+**URL** /sr/signup/qrcode??uid=2&actid=3
+
+**返回**
+```json
+{
+	"data": {
+		"qrcode": "http://aaa/bbb"
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
 --------
 
 ### 10. 我的收益
