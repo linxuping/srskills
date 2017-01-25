@@ -295,6 +295,44 @@
 }
 ```
 
+### 9.4. 关闭报名
+**POST**
+**URL** /sr/signup/cancel
+
+**参数**
+```json
+{
+	"uid": "uid",
+	"actid": 3
+}
+```
+**返回**
+```json
+{
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 9.5. 恢复报名
+**POST**
+**URL** /sr/signup/recover
+
+**参数**
+```json
+{
+	"uid": "uid",
+	"actid": 3
+}
+```
+**返回**
+```json
+{
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
 --------
 
 ### 10. 我的收益
