@@ -11,8 +11,18 @@
 	"time_sign_end":"2016-12-13",
 	"price":12.3,
 	"quantities":20,
-	"classes_str":"舞蹈男班\n课程时间\r\n舞蹈男班\n课程时间",
-	"activities_str":"费用名称\n价格\n人数限制\r\n费用名称\n价格\n人数限制"
+	"classes":[
+		{
+			"title": "舞蹈男班",
+			"time": "课程时间"
+		}
+	],
+	"activities":[
+		{
+			"title":"费用名称",
+			"price":12.9,
+			"quantities":20
+	]
 }
 ```
 **返回**
