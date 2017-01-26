@@ -68,7 +68,7 @@
 				"age": 4,
 				"gender": "male",
 				"title": "til",
-				"status: "baoming",
+				"status": "已报名",
 				"tag": "tag",
 				"record": "rec",
 				"signup_url": "https://bbb",
