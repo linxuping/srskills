@@ -22,6 +22,7 @@
 			"title":"费用名称",
 			"price":12.9,
 			"quantities":20
+		}
 	]
 }
 ```
