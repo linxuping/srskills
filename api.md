@@ -70,7 +70,9 @@
 				"title": "til",
 				"status: "已报名",
 				"tag": "tag",
-				"record": "rec"
+				"record": "rec",
+				"signup_url": "https://bbb",
+				"signup_url_qrcode": "https://aaa.png"
 			}
 		],
 		"pageable": {
