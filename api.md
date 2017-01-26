@@ -8,6 +8,8 @@
 	"uid":"abc",
 	"type":"0-课程;1-活动",
 	"title":"云南亲子一日游",
+	"time_from":"活动开始时间",
+	"time_to":"活动结束时间",
 	"time_sign_end":"2016-12-13",
 	"price":12.3,
 	"quantities":20,
