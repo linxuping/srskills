@@ -62,7 +62,7 @@
 				"uid": 3,
 				"actid": 2,
 				"signid": 4,
-				"time": 12345678j9,
+				"time": 123456789,
 				"name": "abc",
 				"phone": "1234",
 				"age": 4,
