@@ -16,7 +16,8 @@
 	"class_options":[
 		{
 			"title": "舞蹈男班",
-			"time": "课程时间"
+			"weekend": "星期(前端判断)",
+			"time": "开课时间"
 		}
 	],
 	"activity_options":[
