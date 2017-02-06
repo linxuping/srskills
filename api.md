@@ -285,10 +285,13 @@
 		"name_ch": "child",
 		"age": 3,
 		"gender": "male",
-		"sign_option": {
+		"type": "0-课程 1-活动",
+		"option": {
 			"id": 1,
 			"title": "meishu",
 			"time_str": "aa-bb cc"
+			"price":2.9,
+			"quantities":30
 		},
 		"tag": "tag",
 		"record": "rec"
