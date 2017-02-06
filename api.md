@@ -289,8 +289,8 @@
 		"option": {
 			"id": 1,
 			"title": "meishu",
-			"time_str": "aa-bb cc"
-			"price":2.9,
+			"time_str": "aa-bb cc",
+			"price": 2.9,
 			"quantities":30
 		},
 		"tag": "tag",
