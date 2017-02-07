@@ -240,8 +240,36 @@
 
 ### 9. 修改
 **POST**
-** URL ** /sr/activity/add
+** URL ** /sr/activity/update
 
+**参数**
+```json
+{
+	"actid": 221,
+	"uid":"abc",
+	"type":"0-课程;1-活动",
+	"title":"云南亲子一日游",
+	"time_from":"活动开始时间",
+	"time_to":"活动结束时间",
+	"time_sign_end":"2016-12-13",
+	"price":12.3,
+	"quantities":20,
+	"class_options":[
+		{
+			"title": "舞蹈男班",
+			"weekend": "星期(前端判断)",
+			"time": "开课时间"
+		}
+	],
+	"activity_options":[
+		{
+			"title":"费用名称",
+			"price":12.9,
+			"quantities":20
+		}
+	]
+}
+```
 
 ### 9.1. 消息列表
 **GET**
