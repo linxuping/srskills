@@ -219,14 +219,16 @@
 		"time_sign_end":"2016-12-13",
 		"price":12.3,
 		"quantities":20,
-		"classes":[
+		"classes":[	
 			{
+				"id": 2,
 				"title":"舞蹈男班",
 				"time":"课程时间"
 			}
 		],
 		"activities":[
 			{
+				"id": 3,
 				"title":"费用名称",
 				"price":"价格",
 				"quantities":"人数限制"
@@ -256,6 +258,7 @@
 	"quantities":20,
 	"class_options":[
 		{
+			"id": 2,
 			"title": "舞蹈男班",
 			"weekend": "星期(前端判断)",
 			"time": "开课时间"
@@ -263,6 +266,7 @@
 	],
 	"activity_options":[
 		{
+			"id": 3,
 			"title":"费用名称",
 			"price":12.9,
 			"quantities":20
