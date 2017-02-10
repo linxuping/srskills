@@ -447,7 +447,7 @@
 
 ### 12. 提取记录
 **GET**
-**URL** /sr/income/logs?uid=abc
+**URL** /sr/income/logs?uid=abc&page=1&pagesize=4
 
 **返回**
 ```json
@@ -466,6 +466,10 @@
 			}
 		]
 	},
+	"pageable": {
+			"page": 0,
+			"total": 1
+	},
 	"errcode": 0,
 	"errmsg": ""
 }
@@ -473,7 +477,7 @@
 
 ### 13. 资金流水
 **GET**
-**URL** /sr/income/flow?uid=abc
+**URL** /sr/income/flow?uid=abc&page=1&pagesize=4
 
 **返回**
 ```json
@@ -487,6 +491,10 @@
 				"remian": 60
 			}
 		]
+	},
+	"pageable": {
+			"page": 0,
+			"total": 1
 	},
 	"errcode": 0,
 	"errmsg": ""
