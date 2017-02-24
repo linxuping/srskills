@@ -524,7 +524,7 @@
 ```json
 {
 	"data":{
-		"status: 1,
+		"status": 1,
 		"details": {
 			"uid": "uid",
 			"cash_fee_all": 100,
