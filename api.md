@@ -524,13 +524,16 @@
 ```json
 {
 	"data":{
-		"uid": "uid",
-		"cash_fee_all": 100,
-		"cash_fee_extract": 50,
-		"name": "test",
-		"bank": "zhaohang",
-		"account": "123456",
-		"record": "dd"
+		"status: 1,
+		"details": {
+			"uid": "uid",
+			"cash_fee_all": 100,
+			"cash_fee_extract": 50,
+			"name": "test",
+			"bank": "zhaohang",
+			"account": "123456",
+			"record": "dd"
+		}
 	},
 	"errcode": 0,
 	"errmsg": ""
