@@ -501,4 +501,38 @@
 }
 ```
 
+### 13.1. 
+**GET**
+**URL** /sr/income/extraction/check?uid=abc
 
+**返回**
+```json
+{
+	"data":{
+		"status": "0-无 1-有"
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 13.2. 
+**GET**
+**URL** /sr/income/extraction/get?uid=abc
+
+**返回**
+```json
+{
+	"data":{
+		"uid": "uid",
+		"cash_fee_all": 100,
+		"cash_fee_extract": 50,
+		"name": "test",
+		"bank": "zhaohang",
+		"account": "123456",
+		"record": "dd"
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
