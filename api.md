@@ -290,7 +290,8 @@
 				"status":"b",
 				"createtime":"",
 				"name":"jim",
-				"signid": 3
+				"signid": 3,
+				"type": "0-报名 1-提现"
 			}
 		],		
 		"pageable": {
