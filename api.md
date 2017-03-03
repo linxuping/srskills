@@ -291,7 +291,8 @@
 				"createtime":"",
 				"name":"jim",
 				"signid": 3,
-				"type": "0-报名 1-提现"
+				"type": "0-报名 1-提现",
+				"cash_fee": "提现金额"
 			}
 		],		
 		"pageable": {
