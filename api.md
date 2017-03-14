@@ -1,3 +1,26 @@
+### 2.1 上传
+**POST**
+** URL ** /sr/upload
+
+**参数**
+```json
+{
+	"uid":"abc",
+	"from":"cover_class\cover_activity\img_class\img_activity"
+}
+```
+**返回**
+```json
+{
+	"data": {
+		"path": "http://***/cover_class_101_12770_20170314_231039.png"
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+
 ### 1 生成活动 
 **POST**
 ** URL ** /sr/activity/add
