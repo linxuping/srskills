@@ -6,7 +6,7 @@
 ```json
 {
 	"uid":"abc",
-	"from":"cover_class\cover_activity\img_class\img_activity"
+	"from":"cover_class,cover_activity,img_class,img_activity"
 }
 ```
 **返回**
