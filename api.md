@@ -36,6 +36,10 @@
 	"time_sign_end":"2016-12-13",
 	"price":12.3,
 	"quantities":20,
+	"cover": "cover.jpg",
+	"files": [
+		"a.jpg"
+	],
 	"class_options":[
 		{
 			"title": "舞蹈男班",
@@ -243,6 +247,10 @@
 		"time_sign_end":"2016-12-13",
 		"price":12.3,
 		"quantities":20,
+		"img_cover": "cover",
+		"files": [
+			"a.jpg"
+		],
 		"classes":[	
 			{
 				"id": 2,
