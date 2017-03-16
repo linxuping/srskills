@@ -37,6 +37,7 @@
 	"price":12.3,
 	"quantities":20,
 	"cover": "cover.jpg",
+	"phone": "1234",
 	"files": [
 		"a.jpg"
 	],
