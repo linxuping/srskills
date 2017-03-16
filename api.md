@@ -41,6 +41,9 @@
 	"files": [
 		"a.jpg"
 	],
+	"require_options": [
+		{"key":"k", "title":"t"}
+	],
 	"class_options":[
 		{
 			"title": "舞蹈男班",
@@ -289,6 +292,14 @@
 	"time_sign_end":"2016-12-13",
 	"price":12.3,
 	"quantities":20,
+	"cover": "cover.jpg",
+	"phone": "1234",
+	"files": [
+		"a.jpg"
+	],
+	"require_options": [
+		{"key":"k", "title":"t"}
+	],
 	"class_options":[
 		{
 			"id": 2,
