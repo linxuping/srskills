@@ -38,6 +38,7 @@
 	"quantities":20,
 	"cover": "cover.jpg",
 	"phone": "1234",
+	"details": "details",
 	"files": [
 		"a.jpg"
 	],
@@ -48,7 +49,9 @@
 		{
 			"title": "舞蹈男班",
 			"weekend": "星期(前端判断)",
-			"time": "开课时间"
+			"time": "开课时间",
+			"age_from": 2,
+			"age_to": 4
 		}
 	],
 	"activity_options":[
@@ -294,6 +297,7 @@
 	"quantities":20,
 	"cover": "cover.jpg",
 	"phone": "1234",
+	"details": "details",
 	"files": [
 		"a.jpg"
 	],
@@ -305,7 +309,9 @@
 			"id": 2,
 			"title": "舞蹈男班",
 			"weekend": "星期(前端判断)",
-			"time": "开课时间"
+			"time": "开课时间",
+			"age_from": 2,
+			"age_to": 3
 		}
 	],
 	"activity_options":[
