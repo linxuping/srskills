@@ -377,6 +377,11 @@
 			"price": 2.9,
 			"quantities":30
 		},
+		"records":{
+			"id": 3,
+			"content":"abcd",
+			"createtime":"12345678"
+		},
 		"tag": "tag",
 		"record": "rec"
 	},
