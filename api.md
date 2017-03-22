@@ -170,9 +170,9 @@
 }
 ```
 
-### 6. 更新记录
+### 6.增加记录
 **POST**
-**URL** /sr/record/update
+**URL** /sr/record/add
 
 **参数**
 ```json
@@ -180,6 +180,25 @@
 	"uid": "uid",
 	"signid": 3,
 	"record": "dd"
+}
+```
+**返回**
+```json
+{
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+### 6.2. 删除记录
+**POST**
+**URL** /sr/record/delete
+
+**参数**
+```json
+{
+	"uid": "uid",
+	"recordid": 3
 }
 ```
 **返回**
