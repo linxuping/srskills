@@ -209,6 +209,26 @@
 }
 ```
 
+### 6.3. 记录列表
+**GET**
+**URL** /sr/record/list?signid=2&uid=bc
+
+**返回**
+```json
+{
+	"data":{
+		"records": [
+			{
+				"record":"123",
+				"createtime":12345678
+			}
+		]
+	},
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
 --------
 
 ### 7. 发布列表
