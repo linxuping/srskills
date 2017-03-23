@@ -231,6 +231,27 @@
 
 --------
 
+### 6.4. 更新记录
+**POST**
+**URL** /sr/record/update
+
+**参数**
+```json
+{
+	"uid": "abc",
+	"record": "new record",
+	"recordid": 3
+}
+```
+**返回**
+```json
+{
+	"errcode": 0,
+	"errmsg": ""
+}
+```
+
+
 ### 7. 发布列表
 **GET**
 **URL** /sr/class/list?uid=abc
